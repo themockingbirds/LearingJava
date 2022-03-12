@@ -2,7 +2,7 @@ package com.basic.inputoutput;
 //Console Input output  -- not work in IDE
 
 import java.io.Console;
-public class _5_Input_p3 {
+public class _3_Input_p3 {
     public static void main(String[] args) {
 
     //with Console object--

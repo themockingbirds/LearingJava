@@ -6,7 +6,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class _4_Input_p2 {
+public class _3_Input_p2 {
     public static void main(String[] args) throws IOException {
         InputStreamReader isr_obj = new InputStreamReader(System.in);
         BufferedReader br_obj=new BufferedReader(isr_obj);

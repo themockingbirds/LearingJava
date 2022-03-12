@@ -13,7 +13,7 @@ import java.util.StringTokenizer;
  * 	3. Collect the individual token from StringTokenizer obj using nextToken() method and convert it into required format.
  */
 
-public class _6_Input_p4 {
+public class _3_Input_p4 {
     public static void main(String[] args) {
     //step 1
         Scanner sc = new Scanner(System.in);
