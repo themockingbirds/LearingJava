@@ -31,7 +31,7 @@ public class RPS_v2 {
                 int rand = (int)(Math.random()*3);
 
                 //Convert the random number to a string using conditionals and print the opponent's move
-                String opponentMove = "";
+                String opponentMove;
                 if(rand == 0) {
                     opponentMove = "rock";
                 } else if(rand == 1) {
