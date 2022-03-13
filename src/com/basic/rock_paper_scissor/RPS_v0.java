@@ -4,10 +4,11 @@ import java.util.Random;
 import java.util.Scanner;
 
 /**
- * Version 1.0
- * Update: Computer Run his chance by its self randomly.
+ * Version 0.1
+ * Computer chance is also inputted through Users.
  */
-public class RPS_v1 {
+
+public class RPS_v0 {
     public static void main(String[] args) {
         int round = 1,i=0;
         String player1;
@@ -31,12 +32,21 @@ public class RPS_v1 {
 
             //User Input---
             do{
-                System.out.print("Input\t->\t");
+                System.out.print(player1+" :\t->\t");
                 userArmor = sc.nextInt();
                 if(userArmor==0 ||userArmor==1||userArmor==2)
                     break;
                 else
-                    System.out.println("!!Please Input 0 For Rock,1 For Paper & 2 For Scissor!! \t");
+                    System.out.println("!!Please Input 0 For Rock, 1 For Paper & 2 For Scissor!! \t");
+            }while(true);
+            //Opponent's Input
+            do{
+                System.out.print("Computer:\t->\t");
+                compArmor=sc.nextInt();
+                if(compArmor==0 ||compArmor==1||compArmor==2)
+                    break;
+                else
+                    System.out.println("!!Please Input 0 For Rock, 1 For Paper & 2 For Scissor!! \t");
             }while(true);
 
             switch (userArmor) {
@@ -47,7 +57,7 @@ public class RPS_v1 {
             }
 
             //Computer Input
-            compArmor = rnd.nextInt(3);
+            //compArmor = rnd.nextInt(3);
             switch (compArmor) {
                 case 0 -> System.out.println("Computer : "+compArmor+" -> Rock");
                 case 1 -> System.out.println("Computer : "+compArmor+" -> Paper");
@@ -95,5 +105,3 @@ public class RPS_v1 {
         System.out.println();
     }
 }
-
-

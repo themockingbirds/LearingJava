@@ -2,6 +2,13 @@ package com.basic.rock_paper_scissor;
 
 import java.util.Scanner;
 
+/**
+ * Version 1.0
+ * Update:
+ * 1) Computer Run his chance by its self randomly.
+ * 2) More Efficient and Easy to play.
+ */
+
 public class RPS_v2 {
     public static void main(String[] args) {
         //Initialize the Scanner and print a welcome message
