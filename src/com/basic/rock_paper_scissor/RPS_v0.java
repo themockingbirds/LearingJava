@@ -8,7 +8,7 @@ import java.util.Scanner;
  * Computer chance is also inputted through Users.
  */
 
-public class RPS_v0 {
+class RPS_v0 {
     public static void main(String[] args) {
         int round = 1,i=0;
         String player1;

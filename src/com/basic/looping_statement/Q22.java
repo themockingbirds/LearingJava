@@ -9,6 +9,5 @@ public class Q22 {
         System.out.print("Input A Number: ");
         num=sc.nextInt();
 
-
     }
 }
