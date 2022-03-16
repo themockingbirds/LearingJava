@@ -1,5 +1,4 @@
 package com.basic.rock_paper_scissor;
-
 import java.util.Random;
 import java.util.Scanner;
 
@@ -89,9 +88,10 @@ public class RPS_v1 {
             System.out.printf("%10s!! You Both Are Very Tough !!","");
         }
     }
+
     static void hLine(){
         for(int i=0;i<=50;i++)
-            System.out.print("-");
+            System.out.print("*");
         System.out.println();
     }
 }
