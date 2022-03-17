@@ -1,7 +1,8 @@
 package com.oops.emailapplication;
 
 import java.util.Scanner;
-
+//https://www.youtube.com/watch?v=U3Ibvu0htNs&t=630s
+//https://codegym.cc/projects/games/com.codegym.games.snake
 public class EmailApp {
     public static void main(String[] args) {
         Email[] newEmp=new Email[100];
@@ -24,7 +25,6 @@ public class EmailApp {
             System.out.print("Input : ");
             switch(sc.nextInt()){
                 case 1-> {
-                     //
                     System.out.print("Input First Name and Last Name: ");
                     firstName=sc.next();
                     lastName=sc.next();
@@ -42,11 +42,12 @@ public class EmailApp {
                     """);
                 }
                 case 2->{
-                    System.out.println("--------------------------------------------------");
+
                     for(int j=0;j<totalNoOfEmp;j++){
                         newEmp[j].showInfo();
+                        System.out.println("--------------------------------------------------");
                     }
-                    System.out.println("--------------------------------------------------");
+
                 }
 
                 case 3-> {
